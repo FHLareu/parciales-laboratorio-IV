@@ -1,0 +1,21 @@
+<div class="container">
+
+  <h1>Pedir un turno</h1>
+
+  <div>
+    Fecha: <input type="number" min="1" max="31" style="width:35px;" [(ngModel)]="dia" /> / <input type="number" min="1"
+      max="12" style="width:35px;" [(ngModel)]="mes" />
+  </div>
+
+  <div>
+    Horario: <input type="number" min="0" max="23" style="width:35px;" [(ngModel)]="hora" /> : <input type="number" min="00"
+      max="59" style="width:35px;" [(ngModel)]="minutos" />
+  </div>
+
+  <select [(ngModel)]="estado">
+    <option *ngFor="let item of autosDelUsuario" value="{{item.kilometros}}">{{item.marca}} ({{item.patente}})</option>
+  </select>
+
+  <button (click)="test()">Pedir turno</button>
+
+</div>

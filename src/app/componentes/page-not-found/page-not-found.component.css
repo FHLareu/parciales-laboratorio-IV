@@ -1,0 +1,11 @@
+img {
+    width: 150px;
+    height: auto;
+}
+
+.texto {
+    width: 500px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}

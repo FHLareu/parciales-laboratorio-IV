@@ -1,0 +1,63 @@
+<!--<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+
+    <ng-container matColumnDef="_id">
+      <th mat-header-cell *matHeaderCellDef> ID </th>
+      <td mat-cell *matCellDef="let element"> {{element._id}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef> Nombre </th>
+        <td mat-cell *matCellDef="let element"> {{element.correo}} </td>
+      </ng-container>
+  
+    <ng-container matColumnDef="fecha">
+      <th mat-header-cell *matHeaderCellDef> Fecha </th>
+      <td mat-cell *matCellDef="let element"> {{element.fecha}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="estado">
+      <th mat-header-cell *matHeaderCellDef> Estado </th>
+      <td mat-cell *matCellDef="let element"> {{element.estado | autoEstado}} </td>
+    </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>-->
+
+<div class="busqueda">
+  <input [(ngModel)]="searchText" placeholder="Buscar por Nombre, fecha" class="advancedSearchTextbox">
+</div>
+
+<table>
+  <tr class="test">
+    <td>ID</td>
+    <td>Fecha</td>
+    <td>Estado</td>
+    <td>Nombre</td>
+  </tr>
+
+  <tr style="padding-bottom: 10px;" *ngFor="let emp of dataSource | grdFilter: {correo: searchText, fecha:searchText,  estado: searchText}; let i=index;">
+    <td style="width: 10%;">{{emp._id}}</td>
+    <td style="width: 5%;">{{emp.fecha}}</td>
+    <td style="width: 15%;">{{emp.estado | autoEstado}}</td>
+    <td style="width: 15%;">{{emp.correo}}</td>
+
+  </tr>
+
+</table>
+
+
+
+
+
+
+<!-- <table *ngFor="let emp of dataSource | grdFilter: {correo: searchText, fecha:searchText,  estado: searchText}; let i=index;">
+  <tr>
+    <td style="width: 10%;">{{emp._id}}</td>
+    <td style="width: 5%;">{{emp.fecha}}</td>
+    <td style="width: 15%;">{{emp.estado | autoEstado}}</td>
+    <td style="width: 15%;">{{emp.correo}}</td>
+
+  </tr>
+</table> -->

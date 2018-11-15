@@ -1,0 +1,14 @@
+<div class="container">
+
+    <div class="sombreado"></div>
+
+    <h1>Iniciar sesión</h1>
+
+    <input type="text" placeholder="Correo Electrónico" [(ngModel)]="correo" />
+    <input type="text" placeholder="Contraseña" [(ngModel)]="password" />
+
+    <span>¿No tienes una cuenta? <a routerLink="/registro" routerLinkActive="active">Registrate</a></span>
+
+    <button (click)="Logear()">Iniciar sesión</button>
+
+</div>
