@@ -1,27 +1,44 @@
-# ModeloParcial
+# Parciales de Laboratorio IV
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
+Este repositorio contiene la resolucion del modelo del segundo parcial asi como su enunciado y los enunciados del modelo del primer parcial y el primer parcial en si de la materia Laboratorio IV.<br />
+Tambien se incluye el [servidor](https://github.com/1caruxx/La-comanda-lab-4/tree/master/servidor) utilizado para almacenar los datos. Para ponerlo en marcha sera necesaria la instalacion de [MongoDB](https://www.mongodb.com/). Finalmente se debera lanzar los siguientes comandos en la raiz del proyecto:
 
-## Development server
+```
+npm i
+npm start
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Lenguajes
 
-## Code scaffolding
+Los lenguajes utilizados fueron:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* TypeScript
+* HTML
+* CSS
 
-## Build
+## Tecnologias utilizadas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+<table>
+    <tbody>
+        <tr>
+            <td><img src="https://raw.githubusercontent.com/1caruxx/Final_laboratorio_y_programacion_III/master/Z._img/vs.ico" width="20px" height="20px"/></td>
+            <td><a href="https://code.visualstudio.com/">Visual Studio Code</a></td>
+        </tr>
+        <tr>
+            <td><img src="https://raw.githubusercontent.com/1caruxx/Desarollo_web/master/icon.png" width="20px" height="20px"/></td>
+            <td><a href="https://angular.io/"><b>Angular</b></a></td>
+        </tr>
+        <tr>
+            <td><img src="https://raw.githubusercontent.com/1caruxx/Final_laboratorio_y_programacion_III/master/Z._img/jwt.png" width="20px" height="20px"/></td>
+            <td><a href="https://jwt.io/">JSON Web Token</a></td>
+        </tr>
+    </tbody>
+</table>
 
-## Running unit tests
+## Profesor
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* [Mario Rampi](https://github.com/MarioAr)
 
-## Running end-to-end tests
+## Autor
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* Fernando Lareu - [1caruxx](https://github.com/1caruxx)
