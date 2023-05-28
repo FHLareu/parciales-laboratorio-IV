@@ -1,7 +1,7 @@
 # Parciales de Laboratorio IV
 
 Este repositorio contiene la resolucion del modelo del segundo parcial asi como su enunciado y los enunciados del modelo del primer parcial y el primer parcial en si de la materia Laboratorio IV.<br />
-Tambien se incluye el [servidor](https://github.com/1caruxx/parciales-laboratorio-IV/tree/master/servidor) utilizado para almacenar los datos. Para ponerlo en marcha sera necesaria la instalacion de [MongoDB](https://www.mongodb.com/). Finalmente se debera lanzar los siguientes comandos en la raiz del proyecto:
+Tambien se incluye el [servidor](https://github.com/FHLareu/parciales-laboratorio-IV/tree/master/servidor) utilizado para almacenar los datos. Para ponerlo en marcha sera necesaria la instalacion de [MongoDB](https://www.mongodb.com/). Finalmente se debera lanzar los siguientes comandos en la raiz del proyecto:
 
 ```
 npm i
@@ -41,4 +41,4 @@ Los lenguajes utilizados fueron:
 
 ## Autor
 
-* Fernando Lareu - [1caruxx](https://github.com/1caruxx)
+* Fernando Lareu - [FHLareu](https://github.com/FHLareu)
